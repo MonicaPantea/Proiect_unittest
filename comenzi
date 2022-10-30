@@ -1,0 +1,19 @@
+pip install pytest
+pip install pytest-html.
+
+
+# rulare teste
+    #se ruleaza test pentru un singur fisier (ex: file_name = test_angajat)
+        pytest tests/folder_name/test_file_name.py
+
+    #se ruleaza test pentru intreg proiectul
+        pytest
+
+#generare raport html
+    #se genereaza raport pentru intregul proiectul
+        pytest --html=report.html.
+
+#se genereaza raport pentru un singur fisier
+    pytest tests/folder_name/test_file_name.py --html=report.html
+
+
